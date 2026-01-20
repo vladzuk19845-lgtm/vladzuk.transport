@@ -1,0 +1,169 @@
+{
+  "identity": {
+    "name": "E1: The Anti-AI Designer",
+    "vibe": "Cyber-Professional, Youthful, High-Voltage",
+    "principles": [
+      "Fusion over Imitation: Mix Logistics with Cyberpunk aesthetics.",
+      "Emotion First: Every interaction should feel 'fast' and 'electric'.",
+      "Content is King: Data must be legible but beautiful.",
+      "Zoom In: Focus on the driver and the vehicle details.",
+      "Negative Space: Use deep black space to let neon accents pop."
+    ]
+  },
+  "tokens": {
+    "colors": {
+      "palette_name": "Neon Night Hauler",
+      "background": {
+        "default": "#09090b",
+        "paper": "#18181b",
+        "subtle": "#27272a"
+      },
+      "primary": {
+        "main": "#00ff94",
+        "hover": "#00cc76",
+        "foreground": "#000000"
+      },
+      "secondary": {
+        "main": "#6366f1",
+        "foreground": "#ffffff"
+      },
+      "accent": {
+        "main": "#d946ef",
+        "foreground": "#ffffff"
+      },
+      "text": {
+        "primary": "#ffffff",
+        "secondary": "#a1a1aa",
+        "muted": "#52525b"
+      },
+      "border": {
+        "default": "#27272a",
+        "active": "#00ff94"
+      },
+      "status": {
+        "success": "#00ff94",
+        "warning": "#facc15",
+        "error": "#ff4d4d",
+        "info": "#3b82f6"
+      }
+    },
+    "typography": {
+      "headings": {
+        "family": "Unbounded, sans-serif",
+        "weights": ["700", "900"],
+        "usage": "Hero titles, Section headers, Big stats"
+      },
+      "body": {
+        "family": "Manrope, sans-serif",
+        "weights": ["400", "500", "600"],
+        "usage": "Paragraphs, UI elements, Data tables"
+      },
+      "mono": {
+        "family": "JetBrains Mono, monospace",
+        "usage": "License plates, IDs, Code snippets"
+      }
+    },
+    "radius": {
+      "default": "0.75rem",
+      "button": "9999px",
+      "card": "1rem"
+    },
+    "shadows": {
+      "glow": "0 0 20px -5px rgba(0, 255, 148, 0.3)",
+      "card": "0 4px 6px -1px rgba(0, 0, 0, 0.5)"
+    }
+  },
+  "layout": {
+    "grid_system": {
+      "marketing": "Bento Grid (Mode A) - Asymmetric, artistic, large gaps (gap-8).",
+      "dashboard": "High Density Grid (Mode B) - Tight (gap-4), 100% width utilization."
+    },
+    "spacing": {
+      "container_padding": "p-6 md:p-12",
+      "section_gap": "gap-16 md:gap-24"
+    },
+    "containers": {
+      "max_width": "max-w-7xl mx-auto"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#00ff94] text-black hover:bg-[#00cc76] hover:shadow-[0_0_20px_rgba(0,255,148,0.4)] transition-all duration-300 font-bold rounded-full px-8 py-6",
+      "secondary": "bg-zinc-800 text-white hover:bg-zinc-700 border border-zinc-700 rounded-full px-6 py-4",
+      "ghost": "text-zinc-400 hover:text-white hover:bg-white/5 rounded-full"
+    },
+    "cards": {
+      "glass": "bg-zinc-900/60 backdrop-blur-xl border border-white/10 hover:border-[#00ff94]/50 transition-colors duration-300",
+      "solid": "bg-zinc-900 border border-zinc-800"
+    },
+    "inputs": {
+      "style": "bg-zinc-950 border-zinc-800 focus:border-[#00ff94] focus:ring-1 focus:ring-[#00ff94] rounded-xl h-12"
+    },
+    "navigation": {
+      "style": "Floating glass bar with blur. Fixed at top. z-50."
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-black/40 border border-white/10",
+    "gradients": "Use subtle radial gradients in backgrounds: 'bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-zinc-800 via-zinc-950 to-zinc-950'",
+    "borders": "1px solid border-white/10. Active states get border-[#00ff94].",
+    "motion": {
+      "hover": "scale-[1.02] active:scale-[0.98] transition-transform",
+      "scroll": "Parallax effects on hero images."
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_truck": {
+        "url": "https://images.unsplash.com/photo-1602607771743-9f829d8419e9?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "White truck on road at night",
+        "usage": "Hero section background or main visual"
+      },
+      "passenger_luxury": {
+        "url": "https://images.pexels.com/photos/28977056/pexels-photo-28977056.jpeg",
+        "alt": "Luxury black car interior",
+        "usage": "Passenger transportation section"
+      },
+      "driver_portrait": {
+        "url": "https://images.pexels.com/photos/7541981/pexels-photo-7541981.jpeg",
+        "alt": "Truck driver in cabin",
+        "usage": "Driver registration CTA or testimonials"
+      },
+      "logistics_abstract": {
+        "url": "https://images.pexels.com/photos/19572937/pexels-photo-19572937.jpeg",
+        "alt": "Neon logistics abstract",
+        "usage": "Background texture or feature cards"
+      },
+      "city_night": {
+        "url": "https://images.unsplash.com/photo-1617315033725-15fb10c00a5d?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Car side mirror rain",
+        "usage": "Atmospheric filler"
+      }
+    },
+    "icons": "Use 'lucide-react' for UI icons. Use 'phosphor-icons' (Duotone) for feature highlights."
+  },
+  "instructions_to_main_agent": [
+    "1. INSTALL FONTS: Add '@fontsource/unbounded' and '@fontsource/manrope' to package.json immediately.",
+    "2. CONFIGURE TAILWIND: Update tailwind.config.js with the 'Neon Night Hauler' palette. Set 'zinc-950' as the default background.",
+    "3. FORCE DARK MODE: Ensure the 'dark' class is always applied to the html/body tag, or set default theme to dark in the provider.",
+    "4. USE SHADCN: Use Shadcn components for complex interactions (Forms, Dialogs, Selects) but STYLE them with the 'glass' and 'neon' tokens.",
+    "5. NO WHITE BACKGROUNDS: Never use pure white backgrounds. Use Zinc-900 or Zinc-950.",
+    "6. BILINGUAL: Ensure all text nodes are wrapped in translation keys (prepare for i18n).",
+    "7. MAPS: For the 'Search by City' feature, use a stylized dark map placeholder or 'react-map-gl' with a dark style if implementing fully.",
+    "8. FONDY: When implementing the payment modal, ensure it has a dark backdrop and doesn't flash white."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition. Eg: 'transition: all'. This results in breaking transforms.",
+    "You MUST NOT center align the app container.",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style.",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Use 'sonner' for toasts."
+  ]
+}
