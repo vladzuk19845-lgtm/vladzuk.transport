@@ -51,15 +51,15 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-zinc-500">
                 <Mail className="w-4 h-4 text-[#00ff94]" />
-                info@transportpro.ua
+                vladzuk19845@gmail.com
               </li>
               <li className="flex items-center gap-2 text-zinc-500">
                 <Phone className="w-4 h-4 text-[#00ff94]" />
-                +380 (44) 123-45-67
+                +380 (73) 930-22-13
               </li>
               <li className="flex items-center gap-2 text-zinc-500">
                 <MapPin className="w-4 h-4 text-[#00ff94]" />
-                Київ, Україна
+                Львів, Україна
               </li>
             </ul>
           </div>
@@ -68,7 +68,7 @@ export const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-zinc-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-zinc-600 text-sm">
-            © 2024 TransportPro. {t('footer.rights')}.
+            © 2024 EasyGoTrans. {t('footer.rights')}.
           </p>
           <div className="flex gap-4">
             <a href="#" className="text-zinc-600 hover:text-[#00ff94] text-sm transition-colors">
