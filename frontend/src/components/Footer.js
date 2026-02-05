@@ -16,7 +16,7 @@ export const Footer = () => {
               <div className="w-10 h-10 bg-[#00ff94] rounded-xl flex items-center justify-center">
                 <Truck className="w-6 h-6 text-black" />
               </div>
-              <span className="font-heading font-bold text-xl text-white">TransportPro</span>
+              <span className="font-heading font-bold text-xl text-white">EasyGoTrans</span>
             </Link>
             <p className="text-zinc-500 max-w-md">
               {t('footer.description')}
